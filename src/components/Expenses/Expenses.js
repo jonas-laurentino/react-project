@@ -1,8 +1,10 @@
 import "./Expenses.css";
 import ExpenseItem from "./ExpenseItems";
+import ExpensesFilter from "./ExpensesFilter";
 
 const Expenses = (props) => {
   return (
+      
     <div className="expenses">
       <ExpenseItem
         title={props.items[0].title}
@@ -25,6 +27,7 @@ const Expenses = (props) => {
         date={props.items[3].date}
       />
     </div>
+    
   );
 }
 
