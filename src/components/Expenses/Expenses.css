@@ -8,3 +8,10 @@
     max-width: 95%;
 
 }
+
+.not-found {
+    flex: auto;
+    text-shadow: 0px 0px 3px #fdfdfd;
+    color: hsl(0, 0%, 99%);
+    font-size: 2em;
+}
